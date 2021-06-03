@@ -5,31 +5,31 @@
 
 ----------------------------
 
-DUS (DEVUNION SCRIPT) PACKAGE IS A UNITY C# SCRIPT THAT ALLOWS YOU TO SAVE A LOT OF TIME BY INCLUDING SCRIPTS THAT HAS A LOT OF GENERAL USECASES.
+DUS (devunion script) package is a Unity C# script that allows you to save a lot of time by including scripts that has a lot of general use cases.
 
 ----------------------------
 
-INSTALLATION GUIDE:
+Installation Guide:
 
-1.DOWNLOAD THE ZIP FILE
+1. Download the zip file
 
-2.EXTRACT THE ZIP 
+2. Extract the zip 
 
-3.DRAG AND DROP THE EXTRACTED FOLDER(OR ONLY THE CONTENTS OF IT) TO ANY FOLDER IN YOUR PROJECT
+3. Drag and drop the extracted folder(or only the contents of it) to any folder in your project
 
-4.DRAG AND DROP THE SCRIPT ON ANY GAMEOBJECT IN YOUR SCENE
+4. Drag and drop the script on any gameobject in your scene
 
 ----------------------------
 
-CALL METHODS:
+Call methods:
 
-ONRUNTIME: EXECUTE THE OPERATION ONCE ON START();
+OnRuntime: execute the operation once on Start();
 
-EXTERNALCALL: WAITS FOR ExternalCall() FUNCTION TO RECIEVE AN EXTERNAL CALL TO EXECUTE THE OPERATION;
+ExternalCall: waits for ExternalCall() function to recieve an external call to execute the operation;
 
-TICK: RUNS THE OPERATION ONCE PER EVERY FRAME (SIMILAR TO UPDATE FUNCTION);
+Tick: runs the operation once per every frame (similar to Update function);
 
-NOTE THAT CALL METHOD CANNOT BE CHANGED DURING RUNTIME!
+Note that call method cannot be changed during runtime!
 
 ----------------------------
 
