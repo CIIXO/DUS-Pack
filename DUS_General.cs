@@ -54,6 +54,7 @@ public class DUS_General : MonoBehaviour
         }
         else
         {
+            Debug.LogError("Component Not Found, Make Sure That The Component Holder Does Have The Component And Check For Any Miss Spelling In The 'Component Name' Field");
             return null;      
         }
     }
@@ -137,7 +138,7 @@ public class DUS_General : MonoBehaviour
 }
 
 [CustomEditor(typeof(DUS_General))]
-public class DUGS_General_Editor : Editor
+public class DUS_General_Editor : Editor
 {
     public override void OnInspectorGUI()
     {
