@@ -1,10 +1,8 @@
-#define UNITY_EDITOR
 using UnityEngine;
 using UnityEditor;
 using System.Collections;
 using UnityEngine.SceneManagement;
 /*COMMITING CHANGES TO THE SCRIPT MIGHT CAUSE INSTABLITY, BUT FEEL FREE TO DO SO!*/
-[ExecuteAlways]
 public class DUS_General : MonoBehaviour
 {
     public enum OpsDeclare { Destroy, Spawn, FindComponent, LoadScene, SetParent, DestroyParent, SetActive };
