@@ -2,6 +2,25 @@
 
 --DUS-Pack Alpha--
 
+
+----------------------------
+
+DUS (DEVUNION SCRIPT) IS A UNITY C# SCRIPT PACKAGE THAT ALLOWS YOU TO SAVE A LOT OF TIME BY INCLUDING SCRIPTS THAT HAS A LOT OF GENERAL USECASES, IN THE ALPHA,
+
+----------------------------
+
+CALL METHODS:
+
+ONRUNTIME: EXECUTE THE OPERATION ONCE ON START();
+
+EXTERNALCALL: WAITS FOR ExternalCall() FUNCTION TO RECIEVE AN EXTERNAL CALL TO EXECUTE THE OPERATION;
+
+TICK: RUNS THE OPERATION ONCE PER EVERY FRAME (SIMILAR TO UPDATE FUNCTION);
+
+NOTE THAT CALL METHODS CANNOT BE CHANGED DURING RUNTIME!
+
+----------------------------
+
 Guidelines:
 
 "Use The 'ExternalCall' To Call The Operation From Another Script, You Can Use This Function For Things Like OnTriggerEnter(), OnCOllisionEnter(), RayCastHit, ETC..., how to use:
@@ -12,4 +31,5 @@ Guidelines:
 
 3.type 'dus_General.ExternalCall();' where ever you want to execute the DUS operation(if you are using the FindComponent Operation, You should call the function ComponentCall() instead which returns a variable with the type "Component").
 
-"
+
+----------------------------
